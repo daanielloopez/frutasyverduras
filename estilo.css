@@ -1,0 +1,145 @@
+  html {
+    font-family: sans-serif;
+    hyphens: auto;
+  }
+  article {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  div.ficha {
+    border: black 2px solid;
+    margin: 8px;
+  }
+  article p {
+    margin: 0;
+    padding: 3px;
+  }
+  p.p1 {
+    text-align: center;
+  }
+  p.p2 {
+    padding: 3px 0;
+    background-color: lightgray;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+  }
+  p.p3 {
+    text-align: justify;
+  }
+  article.a1 p.p3 {
+    width: 180px;
+    margin: 8px;
+    border: black 2px solid;
+  }
+  article.a2 {
+    justify-content: space-around;
+  }
+  article.a2 p.p3 {
+    width: 180px;
+    margin: 8px;
+    border: black 2px solid;
+  }
+  article.a3 {
+    align-items: center;
+  }
+  article.a3 p.p3 {
+    width: 180px;
+    margin: 8px;
+    border: black 2px solid;
+  }
+  article.a4 div.ficha {
+    width: 180px;
+  }
+  article.a5 {
+    align-items: center;
+  }
+  article.a5 div.ficha {
+    width: 180px;
+  }
+  article.a5 p.p2 {
+    border-bottom: black 2px solid;
+  }
+  article.a6 div.ficha {
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+  }
+  article.a6 p.p1 {
+    font-size: 350%;
+  }
+  article.a7 {
+    align-items: center;
+  }
+  article.a7 div.ficha {
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+  }
+  article.a7 p.p1 {
+    border-right: black 2px solid;
+    font-size: 350%;
+  }
+  article.a7 p.p3 {
+    background-color: lightgray;
+  }
+  article.a8 div.ficha {
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+    background-color: lightgray;
+  }
+  article.a8 p.p1 {
+    border-right: black 2px solid;
+    font-size: 350%;
+    background-color: white;
+  }
+  article.a8 p.p2 {
+    flex-grow: 1;
+    align-self: center;
+  }
+  article.a9 div.ficha {
+    width: 180px;
+  }
+  article.a9 p.p1 {
+    font-size: 500%;
+    text-align: center;
+  }
+  article.a10 div.ficha {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+  }
+  article.a10 div.parte {
+    display: flex;
+    flex-direction: column;
+    border-left: black 2px solid;
+  }
+  article.a10 p.p1 {
+    font-size: 500%;
+    align-self: center;
+  }
+  article.a10 p.p2 {
+    border-bottom: black 2px solid;
+  }
+  article.a11 div.ficha {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  article.a11 div.parte {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+  }
+  article.a11 p.p1 {
+    font-size: 350%;
+    border-bottom: black 2px solid;
+    border-right: black 2px solid;
+    border-bottom-right-radius: 10px;
+  }
+  article.a11 p.p2 {
+    align-self: center;
+    align-content: center;
+  }
